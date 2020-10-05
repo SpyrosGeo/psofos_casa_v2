@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'my';
+    src: url('./img/Serpentine-yw3n3.ttf')format('truetype')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.intro {
+    height: 100%;
+    width: 100%;
+    background: url('./img/emmanuel-V0GZbofguzo-unsplash.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 25%;
+    background-color: rgba(10, 9, 10, .76);
+
+}
+
+
+
+.content h1 {
+    font-family: 'my';
+    color:white;
+    font-size: 5rem;
+    text-shadow:4px 5px black;
+    transition: 0.3s;
+}
+.content h1:hover {
+    transform: scale(.97);
+    color: rgba(139, 24, 16, 0.538);
+    text-shadow: 2px 2px rgba(10, 9, 10, .6);
+
+}
+
+
+.btn {
+    font-size: 2.5rem;
+    font-family: 'my';
+    letter-spacing: .8rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(5rem);
+    color: rgba(139, 24, 16, 0.738);
+}
+img {
+    padding: 0;
+    width:15rem;
+    filter: blur(2.5px);
+}
